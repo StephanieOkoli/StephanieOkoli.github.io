@@ -3,45 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>The Wonderful World of Stephanie!</title>
-   <!-- Amazon widget script -->
-   <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
   <style>
-
-      /* CSS to flip the image */
-      .flipped {
-      transform: scaleX(-1);
-    }
-
     #Website-Header {
-      background-color: pink;
+      background-color: rgb(255, 125, 147);
       font-family: Arial, Helvetica, sans-serif;
       width: fit-content;
     }
     
+    #welcome-page {
+      font-family: Arial, Helvetica, sans-serif;
+      width: fit-content;
+    }
+
+    /* CSS to flip the image */
+    .flipped {
+      transform: scaleX(-1);
+    }
+
+    #stephanies-dumb-diary-comix-heading {
+      font-family: Arial, Helvetica, sans-serif;
+      width: fit-content;
+    } 
+
+    #emmanuels-rollercoaster-heading {
+      font-family: Arial, Helvetica, sans-serif;
+      width: fit-content;
+    } 
+
     h1 {
         color: darkviolet;
         font-size: xx-large;
         font-weight: 900;
     }
-
-    #stephanies-diary-heading {
-      background-color: pink;
-      font-family: Arial, Helvetica, sans-serif;
-      width: fit-content;
-    }
-
-    #diffuser-pen-heading {
-      background-color: pink;
-      font-family: Arial, Helvetica, sans-serif;
-      width: fit-content;
-    } 
-
-    #the-powerpuff-girls-versus-the-rowdyruff-boys-heading {
-      background-color: pink;
-      font-family: Arial, Helvetica, sans-serif;
-      width: fit-content;
-    } 
-
 
     h2 {
         color: darkviolet;
@@ -50,14 +43,13 @@
     }
 
     body {
-          background-color: white;
+          background-color: peachpuff;
           font-size: medium;
           font-weight: bold;
     }
 
     .paragraph-text {
-      background-color: pink;
-      color: black;
+      color: rgb(33, 0, 47);
       font-family: Arial, Helvetica, sans-serif;
       width: fit-content;
     } 
@@ -69,41 +61,44 @@
     <div id="Website-Header"><h1>Welcome To Stephanie's World!</h1>
     <nav>
       <ul>
-        <li><a href="#stephanies diary">Stephanie's Diary</a></li>
-        <li><a href="#diffuser pen">Diffuser Pen</a></li>
-        <li><a href="#the powerpuff girls versus the rowdyruff boys">The Powerpuff Girls Versus The Rowdyruff Boys</a></li>
+        <li><a href="#welcome page">Welcome To My Blog</a></li>
+        <li><a href="#stephanies dumb diary comix">Stephanie's Dear Dumb Diary Comix</a></li>
+        <li><a href="#emmanuels rollercoaster">Children's Book: Emmanuel's Rollercoaster</a></li>
       </ul>
     </nav>
     </div>
   </header>
 
   <main>
-    <section id="stephanies diary">
-      <h2 id="stephanies-diary-heading">Stephanie's Diary</h2>
-      <p class="paragraph-text">Blog Title</p>
+    <section id="welcome page">
+      <h2 id="welcome-page">Welcome To My Blog!</h2>
       <!-- Flipped image using CSS class -->
      <img src="Brown_Skinned_Buttercup_.png" alt="Flipped Image" class="flipped" width="400">
     </section>
 
-    <section id="Amazon Shop">
-      <!-- Emmanuel's Rollercoaster Amazon Product Link -->
-      <div class="product-link">
-        <iframe src="https://www.amazon.ca/Emmanuels-Rollercoaster-Enter-world-sisters/dp/1778168620/ref=sr_1_1?crid=L8Q5Y59AH3MK&keywords=emmanuels+rollercoaster&qid=1704821830&sprefix=emmanuels+rollercoaster%2Caps%2C90&sr=8-1" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-      </div>
-    </section>
-
-    <section id="the powerpuff girls versus the rowdyruff boys">
-      <h2 id="the-powerpuff-girls-versus-the-rowdyruff-boys-heading">The Powerpuff Girls Versus The Rowdyruff Boys</h2>
-      <p class="paragraph-text">Play Here!</p>
-      <!-- Add interactive game here -->
-      <img src="PPG_VS_RRB_LOGO.png" alt="Powerpuff Girls Versus Rowdyruff Boys" width="400">
+    <section id="stephanies dumb diary comix">
+      <h2 id="stephanies-dumb-diary-comix-heading">Stephanie's Dear Dumb Diary Comix</h2>
+      <img src="Why I Should Stop Smoking Diary Comic.jpg" width="400">
+      <img src="Vancouver Diary Comic.jpg" width="400">
+      <img src="Practicing Cursing Out White Supremacists Diary.jpg" width="400">
     </section>
   </main>
+
+    <section id="emmanuels rollercoaster">
+      <h2 id="emmanuels-rollercoaster-heading">Children's Book: Emmanuel's Rollercoaster</h2>
+      <img src="EmmanuelsRollercoasterProductImage.jpg">
+      <p class="paragraph-text">Emmanuel's Rollercoaster opens the door of possibility as Emmanuel's wacky sister, 
+        Stephanie, takes it upon herself to do the unthinkable. Build a rollercoaster for her brother. 
+        This book plays with absurdity and wonder and gives the reader a pathway to escape the mundane.</p>
+      <a href="https://www.amazon.ca/Emmanuels-Rollercoaster-Enter-world-sisters/dp/1778168620/ref=sr_1_1?crid=L8Q5Y59AH3MK&keywords=emmanuels+rollercoaster&qid=1704821830&sprefix=emmanuels+rollercoaster%2Caps%2C90&sr=8-1"> 
+        <button>Buy Book!</button>
+      </a>
+    </section>
 
   <footer>
     <p>&copy; 2023 My Website</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
+
